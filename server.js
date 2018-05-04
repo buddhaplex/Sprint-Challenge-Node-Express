@@ -3,8 +3,8 @@ const express = require('express');
 const helmet = require('helmet');
 const cors = require('cors');
 const morgan = require('cors');
-const actionRouter = require('./routes/actionRoutes.js');
-const projectRouter = require('./routes/projectRoutes.js');
+const actionRoutes = require('./data/routes/actionRoutes');
+const projectRoutes = require('./data/routes/projectRoutes');
 // instantiate server
 const server = express();
 // direct to listening port 
