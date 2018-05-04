@@ -1,0 +1,27 @@
+{
+  "name": "Sprint-Challenge-Node-Express",
+  "version": "1.0.0",
+  "description": "Node Express Sprint Challenge",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buddhaplex/Sprint-Challenge-Node-Express.git"
+  },
+  "keywords": [],
+  "author": "Eric Andrade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buddhaplex/Sprint-Challenge-Node-Express/issues"
+  },
+  "homepage": "https://github.com/buddhaplex/Sprint-Challenge-Node-Express#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "knex": "^0.14.6",
+    "sqlite3": "^4.0.0"
+  }
+}
